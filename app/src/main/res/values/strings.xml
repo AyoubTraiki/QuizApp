@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="sign">Sign in</string>
+    <string name="register">To register click here</string>
+    <string name="confirm">Confirm password</string>
+    <string name="text1">A cette intersection, je laisse la priorité à droite :</string>
+    <string name="text2">Le panneau de danger indique une succession de virages dont le 1 er est :</string>
+    <string name="text3">Avant de partir, je laisse tourner mon moteur pour qu\'il monte en température :</string>
+    <string name="text4">En tant qu\'automobiliste, vous devez être plus vigilant lorsque :</string>
+    <string name="text5">En conduisant, je peux utiliser mon portable pour écrire un texto ou composer un numéro :</string>
+    <string name="score">Votre score est :</string>
+    <string name="btnrigth">Logout</string>
+    <string name="btnleft">Try again</string>
+    <string name="stoptram">Le tramway est arrêté</string>
+    <string name="movetram">Le tramway circule</string>
+</resources>

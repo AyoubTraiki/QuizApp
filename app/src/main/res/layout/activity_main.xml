@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="30dp"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/logoquizz"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_email"
+        android:ems="10"
+        android:hint="email"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_password"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/custompurple"
+        android:text="@string/sign"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+</LinearLayout>
