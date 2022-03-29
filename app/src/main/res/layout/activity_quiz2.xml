@@ -6,9 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Quiz2"
-    android:layout_margin="30dp"
     android:background="@drawable/background"
     android:paddingTop="80dp">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logoo" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -62,13 +68,14 @@
         android:backgroundTint="@color/customindingo"
         android:text="Next"
         android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/btnrigth"
+        android:backgroundTint="@color/customindingo"
+        android:textColor="@color/white"/>
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        app:srcCompat="@drawable/logoo" />
 
 </LinearLayout>

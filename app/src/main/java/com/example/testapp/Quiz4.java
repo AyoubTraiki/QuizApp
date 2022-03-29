@@ -9,11 +9,14 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Quiz4 extends AppCompatActivity {
     Button btnnext;
     RadioGroup btnradio;
     RadioButton btnradoui;
     RadioButton btnradnon;
+    Button btnlogout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +25,8 @@ public class Quiz4 extends AppCompatActivity {
         btnradoui = findViewById(R.id.radioButton);
         btnradnon = findViewById(R.id.radioButton2);
         btnnext = findViewById(R.id.button3);
+        btnlogout=findViewById(R.id.button2);
+        btnlogout.setOnClickListener(view -> {loginout();});
         btnradio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int CheckedButtonId) {
@@ -48,5 +53,9 @@ public class Quiz4 extends AppCompatActivity {
                 }
             }
         });
+    }
+    public void loginout(){
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(Quiz4.this,MainActivity.class));
     }
 }

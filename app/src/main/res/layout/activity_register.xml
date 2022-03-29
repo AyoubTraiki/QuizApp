@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".RegisterActivity"
-    android:layout_margin="30dp"
     android:paddingTop="80dp"
     android:background="@drawable/background">
     <ImageView
