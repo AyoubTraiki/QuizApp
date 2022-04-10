@@ -56,4 +56,19 @@
         android:text="@string/register"
         android:layout_gravity="center"
         android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/signupgoogle" />
 </LinearLayout>

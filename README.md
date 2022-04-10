@@ -2,7 +2,7 @@
 ## A quiz application using android (java)
 >Sign in
 <p align="center">
-<img alt="Sign_in" src="https://user-images.githubusercontent.com/78284492/162619570-923be85f-2073-40cb-9125-773348b1982a.jpg" width="500" height="500" />
+<img alt="Sign_in" src="https://user-images.githubusercontent.com/78284492/162628529-2bc3a62d-46be-44f2-bbdf-c93b3bd2b725.jpg" width="500" height="500" />
 </p>
 >Sign up
 <p align="center">
